@@ -308,7 +308,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⚠️' ᴊᴏɪɴ ɴᴏᴡ ⚠️, url=f'https://t.me/Sk_tv_official')
+                        InlineKeyboardButton('⚠️ ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚠️', url=f'https://t.me/Sk_tv_official')
                     ]
                     ]
                 
@@ -339,7 +339,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⚠️' ᴊᴏɪɴ ɴᴏᴡ ⚠️, url=f'https://t.me/Sk_tv_official')
+                        InlineKeyboardButton('⚠️ ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ⚠️', url=f'https://t.me/Sk_tv_official')
                     ]
                     ]
                 
