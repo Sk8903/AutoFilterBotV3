@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⚡ Join Main Channel ⚡', url=f'https://t.me/Sk_tamil_movies')
+                        InlineKeyboardButton('⚡ Join Main Channel ⚡', url=f'https://t.me/Sk_tv_official')
                     ]
                     ]
                 await bot.send_cached_media(
