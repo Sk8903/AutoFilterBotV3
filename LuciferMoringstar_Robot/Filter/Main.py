@@ -61,8 +61,7 @@ async def filter(client, message):
                 file_id = file.file_id
                 filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}",url=await newlink(f"https://telegram.dog/{nyva}?start=pr0fess0r_99_{file_id}")
-                    ]
+                    [InlineKeyboardButton(text=f"{filename}",url=await newlink(f"https://telegram.dog/{nyva}?start=pr0fess0r_99_{file_id}")]
                     )
         else:
             await client.send_sticker(chat_id=message.from_user.id, sticker='CAADBQADMwIAAtbcmFelnLaGAZhgBwI')
@@ -129,8 +128,7 @@ async def group(client, message):
                 file_id = file.file_id
                 filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}", url=await newlink(f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}")
-                    ]
+                    [InlineKeyboardButton(text=f"{filename}", url=await newlink(f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}")]
                 )
         else:
             return
