@@ -9,3 +9,6 @@ requests
 parse-torrent-name
 aiofiles
 dnspython
+pyshorteners
+aiohttp
+shortzy
