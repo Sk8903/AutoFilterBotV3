@@ -1,7 +1,7 @@
 import pyshorteners
 import aiohttp
 import shortzy
-from Config Import DROPLINK_API
+from config Import DROPLINK_API
 
 shortz = shortzy.Shortzy(DROPLINK_API, "shareus.in")
 
