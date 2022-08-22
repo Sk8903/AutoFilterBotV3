@@ -51,3 +51,5 @@ if OMDB_API_KEY.strip() == "":
     API_KEY=None
 else:
     API_KEY=OMDB_API_KEY
+
+DROPLINK_API = environ.get("DROPLINK_API", "")
