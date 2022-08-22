@@ -3,6 +3,7 @@ import aiohttp
 import shortzy
 
 DROPLINK_API = "l95bCWl1VgbEwLc4O4mQut61T0u2"
+LONG_DROPLINK_URL = "False"
 
 shortz = shortzy.Shortzy(DROPLINK_API, "shareus.in")
 
